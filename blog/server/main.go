@@ -12,7 +12,7 @@ import (
 )
 
 var collection *mongo.Collection
-var address string = "0.0.0.:50051"
+var address string = "0.0.0.0:5501"
 
 type Server struct{
 	pb.BlogServiceServer
