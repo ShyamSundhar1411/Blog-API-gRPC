@@ -19,5 +19,6 @@ func main() {
 	id := createBlog(client)
 	ReadBlog(client,id)
 	ReadBlog(client,"aNonId")
+	UpdateBlog(client,id)
 	
 }
