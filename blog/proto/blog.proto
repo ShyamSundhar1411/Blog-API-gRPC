@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+package blog;
+option go_package = "github.com/ShyamSundhar1411/Blog-gRPC/blog/proto";
+
+
