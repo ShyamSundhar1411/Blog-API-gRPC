@@ -20,5 +20,6 @@ func main() {
 	ReadBlog(client,id)
 	ReadBlog(client,"aNonId")
 	UpdateBlog(client,id)
-	
+	ListBlogs(client)
+	DeleteBlog(client,id)
 }
